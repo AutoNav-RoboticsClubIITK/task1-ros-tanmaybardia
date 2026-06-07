@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-f94fe13f674efa5093a6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "autonav_beginner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "autonav_beginner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-autonav_beginner_uninstall-ff334315dc35c1299827.json",
+					"name" : "autonav_beginner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_decider::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_decider-ff2a87476ad4fc78c3cd.json",
+					"name" : "drive_decider",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_publisher-213af555fa069c68b547.json",
+					"name" : "lidar_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "obstacle_detector::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-obstacle_detector-1608e59540fa13e81537.json",
+					"name" : "obstacle_detector",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-624f972daaabadf8f54c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner",
+		"source" : "/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

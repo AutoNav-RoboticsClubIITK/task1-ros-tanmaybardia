@@ -1,0 +1,22 @@
+[ 33%] Built target drive_decider
+[ 66%] Built target lidar_publisher
+[100%] Built target obstacle_detector
+-- Install configuration: ""
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/lidar_publisher
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/obstacle_detector
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/drive_decider
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/package_run_dependencies/autonav_beginner
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/parent_prefix_path/autonav_beginner
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.sh
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.dsv
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.bash
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.sh
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.zsh
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.dsv
+-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.dsv
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/packages/autonav_beginner
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig.cmake
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig-version.cmake
+-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.xml

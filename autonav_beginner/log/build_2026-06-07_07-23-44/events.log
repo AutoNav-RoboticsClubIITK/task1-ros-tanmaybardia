@@ -1,0 +1,127 @@
+[0.000000] (-) TimerEvent: {}
+[0.000133] (autonav_beginner) JobQueued: {'identifier': 'autonav_beginner', 'dependencies': OrderedDict()}
+[0.000152] (autonav_beginner) JobStarted: {'identifier': 'autonav_beginner'}
+[0.009158] (autonav_beginner) JobProgress: {'identifier': 'autonav_beginner', 'progress': 'cmake'}
+[0.009854] (autonav_beginner) JobProgress: {'identifier': 'autonav_beginner', 'progress': 'build'}
+[0.010708] (autonav_beginner) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner', '--', '-j12', '-l12'], 'cwd': '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tanmay'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/tanmay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/241/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tanmay'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/241/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/tanmay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/241/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/241/usr/share/code/code'), ('MANAGERPID', '1612'), ('SYSTEMD_EXEC_PID', '2252'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3257'), ('COLCON_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tanmay'), ('JOURNAL_STREAM', '8:20581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/home/tanmay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'tanmay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/tanmay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/tanmay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tanmay-ASUS-TUF-Gaming-F16-FX607VBR-FX607VBR:@/tmp/.ICE-unix/2010,unix/tanmay-ASUS-TUF-Gaming-F16-FX607VBR-FX607VBR:/tmp/.ICE-unix/2010'), ('GTK_EXE_PREFIX', '/snap/code/241/usr'), ('INVOCATION_ID', '2eb3de1cc151476482056a800f7691a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5f42eb2_4b7f_4cd5_9846_b78b467d2839'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/241/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/tanmay/snap/code/241/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79ad7c9b28.sock'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/tanmay/snap/code/241/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/tanmay/snap/code/241/.local/share:/home/tanmay/snap/code/241:/snap/code/241/usr/share:/usr/share/ubuntu:/usr/share/gnome:/home/tanmay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner:/opt/ros/humble')]), 'shell': False}
+[0.036786] (autonav_beginner) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099602] (-) TimerEvent: {}
+[0.145108] (autonav_beginner) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.164026] (autonav_beginner) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.165559] (autonav_beginner) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.169459] (autonav_beginner) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.175431] (autonav_beginner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.184024] (autonav_beginner) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.199707] (-) TimerEvent: {}
+[0.204831] (autonav_beginner) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.205726] (autonav_beginner) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299862] (-) TimerEvent: {}
+[0.329989] (autonav_beginner) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.371978] (autonav_beginner) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.399962] (-) TimerEvent: {}
+[0.434317] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.434481] (autonav_beginner) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.434528] (autonav_beginner) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.435879] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.438318] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.439775] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.448664] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.448756] (autonav_beginner) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.450040] (autonav_beginner) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.450578] (autonav_beginner) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.459264] (autonav_beginner) StdoutLine: {'line': b'-- Generating done\n'}
+[0.463148] (autonav_beginner) StdoutLine: {'line': b'-- Build files have been written to: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner\n'}
+[0.486529] (autonav_beginner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target obstacle_detector\x1b[0m\n'}
+[0.486827] (autonav_beginner) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lidar_publisher\x1b[0m\n'}
+[0.497329] (autonav_beginner) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/drive_decider.dir/src/drive_decider.cpp.o\x1b[0m\n'}
+[0.500051] (-) TimerEvent: {}
+[0.508107] (autonav_beginner) StdoutLine: {'line': b'[ 50%] Built target obstacle_detector\n'}
+[0.514257] (autonav_beginner) StdoutLine: {'line': b'[ 83%] Built target lidar_publisher\n'}
+[0.600179] (-) TimerEvent: {}
+[0.700454] (-) TimerEvent: {}
+[0.800756] (-) TimerEvent: {}
+[0.901057] (-) TimerEvent: {}
+[1.001378] (-) TimerEvent: {}
+[1.101680] (-) TimerEvent: {}
+[1.201994] (-) TimerEvent: {}
+[1.302258] (-) TimerEvent: {}
+[1.402523] (-) TimerEvent: {}
+[1.502822] (-) TimerEvent: {}
+[1.603086] (-) TimerEvent: {}
+[1.703385] (-) TimerEvent: {}
+[1.803678] (-) TimerEvent: {}
+[1.903996] (-) TimerEvent: {}
+[2.004289] (-) TimerEvent: {}
+[2.104602] (-) TimerEvent: {}
+[2.204904] (-) TimerEvent: {}
+[2.305172] (-) TimerEvent: {}
+[2.405468] (-) TimerEvent: {}
+[2.505864] (-) TimerEvent: {}
+[2.606197] (-) TimerEvent: {}
+[2.706504] (-) TimerEvent: {}
+[2.806805] (-) TimerEvent: {}
+[2.907151] (-) TimerEvent: {}
+[3.007528] (-) TimerEvent: {}
+[3.107881] (-) TimerEvent: {}
+[3.208254] (-) TimerEvent: {}
+[3.308627] (-) TimerEvent: {}
+[3.409011] (-) TimerEvent: {}
+[3.509378] (-) TimerEvent: {}
+[3.609740] (-) TimerEvent: {}
+[3.710028] (-) TimerEvent: {}
+[3.810288] (-) TimerEvent: {}
+[3.910656] (-) TimerEvent: {}
+[4.011031] (-) TimerEvent: {}
+[4.111349] (-) TimerEvent: {}
+[4.211675] (-) TimerEvent: {}
+[4.312025] (-) TimerEvent: {}
+[4.412375] (-) TimerEvent: {}
+[4.512713] (-) TimerEvent: {}
+[4.613079] (-) TimerEvent: {}
+[4.713326] (-) TimerEvent: {}
+[4.813607] (-) TimerEvent: {}
+[4.914001] (-) TimerEvent: {}
+[5.014236] (-) TimerEvent: {}
+[5.114561] (-) TimerEvent: {}
+[5.214921] (-) TimerEvent: {}
+[5.315178] (-) TimerEvent: {}
+[5.415507] (-) TimerEvent: {}
+[5.515747] (-) TimerEvent: {}
+[5.616116] (-) TimerEvent: {}
+[5.716361] (-) TimerEvent: {}
+[5.816658] (-) TimerEvent: {}
+[5.916995] (-) TimerEvent: {}
+[6.017337] (-) TimerEvent: {}
+[6.117671] (-) TimerEvent: {}
+[6.217980] (-) TimerEvent: {}
+[6.229325] (autonav_beginner) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable drive_decider\x1b[0m\n'}
+[6.318141] (-) TimerEvent: {}
+[6.418499] (-) TimerEvent: {}
+[6.518846] (-) TimerEvent: {}
+[6.527540] (autonav_beginner) StdoutLine: {'line': b'[100%] Built target drive_decider\n'}
+[6.550162] (autonav_beginner) CommandEnded: {'returncode': 0}
+[6.551011] (autonav_beginner) JobProgress: {'identifier': 'autonav_beginner', 'progress': 'install'}
+[6.562248] (autonav_beginner) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner'], 'cwd': '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tanmay'), ('FONTCONFIG_PATH', '/etc/fonts'), ('GIO_MODULE_DIR', '/home/tanmay/snap/code/common/.cache/gio-modules'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/snap/code/241/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('GTK_EXE_PREFIX_VSCODE_SNAP_ORIG', ''), ('GDK_BACKEND_VSCODE_SNAP_ORIG', ''), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tanmay'), ('CHROME_DESKTOP', 'code.desktop'), ('LOCPATH_VSCODE_SNAP_ORIG', ''), ('OLDPWD', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src'), ('TERM_PROGRAM_VERSION', '1.121.0'), ('DESKTOP_SESSION', 'ubuntu'), ('GTK_PATH', '/snap/code/241/usr/lib/x86_64-linux-gnu/gtk-3.0'), ('XDG_DATA_HOME_VSCODE_SNAP_ORIG', ''), ('GTK_IM_MODULE_FILE', '/home/tanmay/snap/code/common/.cache/immodules/immodules.cache'), ('GIO_LAUNCHED_DESKTOP_FILE', '/var/lib/snapd/desktop/applications/code_code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG', ''), ('VSCODE_GIT_ASKPASS_MAIN', '/snap/code/241/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/snap/code/241/usr/share/code/code'), ('MANAGERPID', '1612'), ('SYSTEMD_EXEC_PID', '2252'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '3257'), ('COLCON_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tanmay'), ('JOURNAL_STREAM', '8:20581'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_SESSION_CLASS', 'user'), ('XDG_DATA_DIRS_VSCODE_SNAP_ORIG', '/usr/share/ubuntu:/usr/share/gnome:/home/tanmay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('USERNAME', 'tanmay'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('FC_FONTATIONS', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/tanmay/.config/Code/User/globalStorage/github.copilot-chat/debugCommand:/home/tanmay/.config/Code/User/globalStorage/github.copilot-chat/copilotCli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tanmay-ASUS-TUF-Gaming-F16-FX607VBR-FX607VBR:@/tmp/.ICE-unix/2010,unix/tanmay-ASUS-TUF-Gaming-F16-FX607VBR-FX607VBR:/tmp/.ICE-unix/2010'), ('GTK_EXE_PREFIX', '/snap/code/241/usr'), ('INVOCATION_ID', '2eb3de1cc151476482056a800f7691a2'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/e5f42eb2_4b7f_4cd5_9846_b78b467d2839'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LOCPATH', '/snap/code/241/usr/lib/locale'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('GIO_MODULE_DIR_VSCODE_SNAP_ORIG', ''), ('XDG_DATA_HOME', '/home/tanmay/snap/code/241/.local/share'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-79ad7c9b28.sock'), ('GNOME_TERMINAL_SERVICE', ':1.129'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('GSETTINGS_SCHEMA_DIR', '/home/tanmay/snap/code/241/.local/share/glib-2.0/schemas'), ('AMENT_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GTK_PATH_VSCODE_SNAP_ORIG', ''), ('FONTCONFIG_FILE', '/etc/fonts/fonts.conf'), ('GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG', ''), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/home/tanmay/snap/code/241/.local/share:/home/tanmay/snap/code/241:/snap/code/241/usr/share:/usr/share/ubuntu:/usr/share/gnome:/home/tanmay/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner:/opt/ros/humble')]), 'shell': False}
+[6.568584] (autonav_beginner) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.568722] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/lidar_publisher\n'}
+[6.568806] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/obstacle_detector\n'}
+[6.568945] (autonav_beginner) StdoutLine: {'line': b'-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/drive_decider\n'}
+[6.571020] (autonav_beginner) StdoutLine: {'line': b'-- Set runtime path of "/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/drive_decider" to ""\n'}
+[6.571313] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/package_run_dependencies/autonav_beginner\n'}
+[6.571382] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/parent_prefix_path/autonav_beginner\n'}
+[6.571453] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.sh\n'}
+[6.571507] (autonav_beginner) StdoutLine: {'line': b'-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.dsv\n'}
+[6.571548] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.sh\n'}
+[6.571590] (autonav_beginner) StdoutLine: {'line': b'-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.dsv\n'}
+[6.571674] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.bash\n'}
+[6.571724] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.sh\n'}
+[6.571768] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.zsh\n'}
+[6.571822] (autonav_beginner) StdoutLine: {'line': b'-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.dsv\n'}
+[6.571856] (autonav_beginner) StdoutLine: {'line': b'-- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.dsv\n'}
+[6.571887] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/packages/autonav_beginner\n'}
+[6.571918] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig.cmake\n'}
+[6.571948] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig-version.cmake\n'}
+[6.571991] (autonav_beginner) StdoutLine: {'line': b'-- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.xml\n'}
+[6.573753] (autonav_beginner) CommandEnded: {'returncode': 0}
+[6.585298] (autonav_beginner) JobEnded: {'identifier': 'autonav_beginner', 'rc': 0}
+[6.585884] (-) EventReactorShutdown: {}

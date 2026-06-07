@@ -1,0 +1,9 @@
+[31mCMake Error at CMakeLists.txt:29 (find_package):
+  find_package called with invalid argument "RcolcEQUIRED"
+
+[0m
+[31mCMake Error at CMakeLists.txt:37 (ament_lint_auto_find_test_dependencies):
+  Unknown CMake command "ament_lint_auto_find_test_dependencies".
+
+[0m
+gmake: *** [Makefile:349: cmake_check_build_system] Error 1

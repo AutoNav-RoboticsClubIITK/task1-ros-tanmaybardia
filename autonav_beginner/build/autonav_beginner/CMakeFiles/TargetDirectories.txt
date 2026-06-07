@@ -1,0 +1,12 @@
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/uninstall.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/autonav_beginner_uninstall.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/lidar_publisher.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/obstacle_detector.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/drive_decider.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/test.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/edit_cache.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/rebuild_cache.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/list_install_components.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/install.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/install/local.dir
+/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner/CMakeFiles/install/strip.dir

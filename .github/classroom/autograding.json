@@ -1,0 +1,74 @@
+{
+  "tests": [
+    {
+      "name": "Test 1 — Package structure exists",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Test 2 — lidar_publisher.cpp content validation",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test 3 — obstacle_detector.cpp content validation",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test 4 — drive_decider.cpp content validation",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test 5 — CMakeLists.txt declares all 3 executables",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Test 6 — Package compiles with colcon build",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 30,
+      "points": 20
+    },
+    {
+      "name": "Test 7 — Screenshots submitted",
+      "setup": "",
+      "run": "exit 0",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}

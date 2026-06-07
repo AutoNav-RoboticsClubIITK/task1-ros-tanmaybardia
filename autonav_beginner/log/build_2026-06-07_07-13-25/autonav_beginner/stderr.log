@@ -1,0 +1,16 @@
+[01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detector::topic_callback(const String&) const[m[K’:
+[01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+   81 |         [01;31m[Kstatus_msg[m[K.data = "DANGER";
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kstatus_message[m[K
+[01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+   84 |         [01;31m[Kstatus_msg[m[K.data = "CAUTION";
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kstatus_message[m[K
+[01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+   87 |         [01;31m[Kstatus_msg[m[K.data = "CLEAR";
+      |         [01;31m[K^~~~~~~~~~[m[K
+      |         [32m[Kstatus_message[m[K
+gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle_detector.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
