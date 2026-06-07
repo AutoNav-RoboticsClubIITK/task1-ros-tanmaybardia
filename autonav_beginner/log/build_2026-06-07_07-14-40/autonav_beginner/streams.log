@@ -1,0 +1,28 @@
+[0.008s] Invoking command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detector[0m
+[0.076s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[0.081s] [ 75%] Built target lidar_publisher
+[5.933s] [100%] [32m[1mLinking CXX executable obstacle_detector[0m
+[6.231s] [100%] Built target obstacle_detector
+[6.252s] Invoked command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12
+[6.264s] Invoking command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner
+[6.274s] -- Install configuration: ""
+[6.275s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/lidar_publisher
+[6.275s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/obstacle_detector
+[6.279s] -- Set runtime path of "/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/obstacle_detector" to ""
+[6.279s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/package_run_dependencies/autonav_beginner
+[6.279s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/parent_prefix_path/autonav_beginner
+[6.279s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.sh
+[6.279s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.dsv
+[6.279s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.sh
+[6.280s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.dsv
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.bash
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.sh
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.zsh
+[6.280s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.dsv
+[6.280s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.dsv
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/packages/autonav_beginner
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig.cmake
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig-version.cmake
+[6.280s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.xml
+[6.281s] Invoked command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner

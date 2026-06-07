@@ -1,0 +1,44 @@
+[0.011s] Invoking command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12
+[0.031s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.142s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.161s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.162s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.166s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.172s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.180s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.201s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.202s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.271s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.305s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.364s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.364s] -- Configured cppcheck include dirs: 
+[0.364s] -- Configured cppcheck exclude dirs and/or files: 
+[0.365s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.367s] -- Added test 'lint_cmake' to check CMake code style
+[0.368s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.376s] -- Added test 'uncrustify' to check C / C++ code style
+[0.376s] -- Configured uncrustify additional arguments: 
+[0.377s] -- Added test 'xmllint' to check XML markup files
+[0.378s] -- Configuring done
+[0.384s] -- Generating done
+[0.388s] -- Build files have been written to: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner
+[0.411s] [35m[1mConsolidate compiler generated dependencies of target lidar_publisher[0m
+[0.429s] [ 25%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o[0m
+[0.434s] [ 75%] Built target lidar_publisher
+[2.076s] [01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:[m[K In member function ‘[01m[Kvoid obstacle_detector::topic_callback(const String&) const[m[K’:
+[2.076s] [01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:81:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+[2.076s]    81 |         [01;31m[Kstatus_msg[m[K.data = "DANGER";
+[2.076s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.076s]       |         [32m[Kstatus_message[m[K
+[2.080s] [01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:84:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+[2.080s]    84 |         [01;31m[Kstatus_msg[m[K.data = "CAUTION";
+[2.080s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.081s]       |         [32m[Kstatus_message[m[K
+[2.084s] [01m[K/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/src/obstacle_detector.cpp:87:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatus_msg[m[K’ was not declared in this scope; did you mean ‘[01m[Kstatus_message[m[K’?
+[2.084s]    87 |         [01;31m[Kstatus_msg[m[K.data = "CLEAR";
+[2.085s]       |         [01;31m[K^~~~~~~~~~[m[K
+[2.085s]       |         [32m[Kstatus_message[m[K
+[3.801s] gmake[2]: *** [CMakeFiles/obstacle_detector.dir/build.make:76: CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o] Error 1
+[3.801s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/obstacle_detector.dir/all] Error 2
+[3.801s] gmake: *** [Makefile:146: all] Error 2
+[3.804s] Invoked command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12

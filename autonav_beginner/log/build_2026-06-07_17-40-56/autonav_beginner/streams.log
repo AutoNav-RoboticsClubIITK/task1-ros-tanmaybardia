@@ -1,0 +1,52 @@
+[0.011s] Invoking command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12
+[0.036s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.147s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.148s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.152s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.158s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.166s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.186s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.187s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.249s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.282s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.339s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.339s] -- Configured cppcheck include dirs: 
+[0.339s] -- Configured cppcheck exclude dirs and/or files: 
+[0.340s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.342s] -- Added test 'lint_cmake' to check CMake code style
+[0.343s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.349s] -- Added test 'uncrustify' to check C / C++ code style
+[0.349s] -- Configured uncrustify additional arguments: 
+[0.350s] -- Added test 'xmllint' to check XML markup files
+[0.351s] -- Configuring done
+[0.365s] -- Generating done
+[0.368s] -- Build files have been written to: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target lidar_publisher[0m
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target drive_decider[0m
+[0.392s] [35m[1mConsolidate compiler generated dependencies of target obstacle_detector[0m
+[0.408s] [ 66%] Built target drive_decider
+[0.408s] [ 66%] Built target obstacle_detector
+[0.409s] [100%] Built target lidar_publisher
+[0.420s] Invoked command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner -- -j12 -l12
+[0.426s] Invoking command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner
+[0.433s] -- Install configuration: ""
+[0.434s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/lidar_publisher
+[0.434s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/obstacle_detector
+[0.435s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/lib/autonav_beginner/drive_decider
+[0.435s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/package_run_dependencies/autonav_beginner
+[0.435s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/parent_prefix_path/autonav_beginner
+[0.435s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.sh
+[0.435s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/ament_prefix_path.dsv
+[0.435s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.sh
+[0.435s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/environment/path.dsv
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.bash
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.sh
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.zsh
+[0.436s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/local_setup.dsv
+[0.436s] -- Installing: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.dsv
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/ament_index/resource_index/packages/autonav_beginner
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig.cmake
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/cmake/autonav_beginnerConfig-version.cmake
+[0.436s] -- Up-to-date: /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/install/autonav_beginner/share/autonav_beginner/package.xml
+[0.438s] Invoked command in '/home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tanmay/Desktop/Task1/task1-ros-tanmaybardia/autonav_beginner/build/autonav_beginner
